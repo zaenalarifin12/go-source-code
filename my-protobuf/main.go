@@ -23,6 +23,7 @@ func main() {
 	//basic.BasicUserGroup()
 	//basic.ProtoToJsonUser()
 	//basic.JsonToProto()
-	basic.BasicUnmarshalAnyKnow()
-	basic.BasicUnmarshalAnyIs()
+	//basic.BasicUnmarshalAnyKnow()
+	//basic.BasicUnmarshalAnyIs()
+	basic.BasicOneOf()
 }
