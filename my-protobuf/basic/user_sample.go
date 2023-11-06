@@ -12,6 +12,10 @@ func BasicUser() {
 		Street:  "JL kusuma",
 		City:    "Saturnus",
 		Country: "Jupiter",
+		Coordinate: &basic.Address_Coordinate{
+			Latitude:  40.00000000000,
+			Longitude: -76.0000000000,
+		},
 	}
 
 	u := basic.User{
