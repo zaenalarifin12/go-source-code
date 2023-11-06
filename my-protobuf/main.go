@@ -20,7 +20,9 @@ func main() {
 
 	//basic.BasicHello()
 	//basic.BasicUser()
-	basic.BasicUserGroup()
+	//basic.BasicUserGroup()
 	//basic.ProtoToJsonUser()
 	//basic.JsonToProto()
+	basic.BasicUnmarshalAnyKnow()
+	basic.BasicUnmarshalAnyIs()
 }
