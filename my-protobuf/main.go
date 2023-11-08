@@ -25,5 +25,8 @@ func main() {
 	//basic.JsonToProto()
 	//basic.BasicUnmarshalAnyKnow()
 	//basic.BasicUnmarshalAnyIs()
-	basic.BasicOneOf()
+	//basic.BasicOneOf()
+	basic.WriteToFileSample()
+	basic.ReadFromFileSample()
+
 }
