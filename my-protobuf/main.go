@@ -26,7 +26,9 @@ func main() {
 	//basic.BasicUnmarshalAnyKnow()
 	//basic.BasicUnmarshalAnyIs()
 	//basic.BasicOneOf()
-	basic.WriteToFileSample()
-	basic.ReadFromFileSample()
+	//basic.WriteToFileSample()
+	//basic.ReadFromFileSample()
+	basic.WriteToJSONSample()
+	basic.ReadFromJSONSample()
 
 }
