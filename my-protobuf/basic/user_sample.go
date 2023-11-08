@@ -176,6 +176,7 @@ func BasicOneOf() {
 	}
 
 	ecomm := basic.User_InstantMessaging{InstantMessaging: &instantMessaging}
+	sr := map[string]uint32{"fly": 5, "speed": 5, "durability": 4}
 
 	u := basic.User{
 		Id:                    96,
@@ -187,6 +188,7 @@ func BasicOneOf() {
 		Address:               nil,
 		CommunicationChannel:  nil,
 		ElectronicCommChannel: &ecomm,
+		SkillRating:           sr,
 	}
 
 	bytes, _ := protojson.Marshal(&u)
