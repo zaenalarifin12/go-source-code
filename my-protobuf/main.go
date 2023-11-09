@@ -19,7 +19,7 @@ func main() {
 	log.SetOutput(new(logWriter))
 
 	//basic.BasicHello()
-	//basic.BasicUser()
+	basic.BasicUser()
 	//basic.BasicUserGroup()
 	//basic.ProtoToJsonUser()
 	//basic.JsonToProto()
@@ -34,5 +34,5 @@ func main() {
 	//basic.BasicReadUserContentV1()
 	//basic.BasicWriteUserContentV2()
 	//basic.BasicReadUserContentV2()
-	basic.BasicReadUserPayment()
+	//basic.BasicReadUserPayment()
 }
