@@ -31,7 +31,8 @@ func main() {
 	//basic.WriteToJSONSample()
 	//basic.ReadFromJSONSample()
 	//basic.BasicWriteUserContentV1()
-	basic.BasicReadUserContentV1()
+	//basic.BasicReadUserContentV1()
 	//basic.BasicWriteUserContentV2()
-	basic.BasicReadUserContentV2()
+	//basic.BasicReadUserContentV2()
+	basic.BasicReadUserPayment()
 }
