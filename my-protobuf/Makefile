@@ -22,7 +22,9 @@ protoc:
 	protoc --go_opt=module=${GO_MODULE} --go_out=. \
 	./proto/basic/*.proto \
 	./proto/dummy/*.proto \
-	./proto/jobsearch/*.proto
+	./proto/jobsearch/*.proto \
+	./proto/car/*.proto
+
 
 
 
@@ -39,6 +41,6 @@ run:
 execute: build run
 
 
-.PHONY: protoc-validate
-protoc-validate:
-	protoc --validate_out="lang=go:./generated" --go_opt=module=${GO_MODULE} --go_out=. ./proto/car/*.proto
+#.PHONY: protoc-validate
+#protoc-validate:
+#    protoc --validate_out="lang=go:./generated" --go_opt=module=${GO_MODULE} --go_out=. ./proto/car/*.proto
